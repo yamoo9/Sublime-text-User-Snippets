@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[${5:<!-- abstract animals business cats city food nightlife fashion people nature sports technics transport -->
+}<img src="http://lorempixel.com/g/${1:320}/${2:240}/${3:category}" width="$1" height="$2" alt="${3:category}" title="${4:placeholder}">
+${6}]]></content>
+    <tabTrigger>img:lpxg</tabTrigger>
+    <description>LoremPixelGray - Placeholder</description>
+</snippet>

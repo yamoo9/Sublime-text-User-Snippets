@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[/* ---------------------------------------------------------------------------
+ * Template for ${1: standard | link | image | video | audio | quot | aside | status } format
+ * --------------------------------------------------------------------------- */
+ $2]]></content>
+	<tabTrigger>wp-postformats</tabTrigger>
+	<!-- <scope>source.python</scope> -->
+	<description>워드프레스 - 포스트포멧</description>
+</snippet>

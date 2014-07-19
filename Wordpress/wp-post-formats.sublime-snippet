@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+${1:# 워드프레스 포스트 포멧 추가
+# http://goo.gl/YTsLF
+}add_theme_support( 'post-formats', 
+	array( 
+		'aside',
+		'chat',
+		'gallery',
+		'image',
+		'link',
+		'quote',
+		'video',
+		'audio'
+	)
+);
+]]></content>
+	<tabTrigger>wp:postformats</tabTrigger>
+	<!-- <scope>source.php</scope> -->
+	<description>워드프레스 - 포스트 포멧 추가</description>
+</snippet>

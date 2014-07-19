@@ -1,0 +1,64 @@
+<snippet>
+	<content><![CDATA[/*
+ *  프로젝트: $1
+ *  프로젝트 설명: $2 
+ *  작성자: ${3:야무(yamoo9@naver.com)}
+ *  라이센스: $4
+ */
+
+// ※ 함수 호출 앞에 세미콜론(;)을 추가한 이유는 연결된 스크립트 또는 다른 플러그인과 연결고리 상 안전을 위한 장치입니다.
+// ※ undefined를 전달인자로 넣은 이유는 undefined를 임의로 변경할 수 없도록 하기 위한 조치입니다.
+;(function ( global, \$, undefined ) {
+  // ※ 엄격모드(Strict)를 사용하면 사전에 발생 가능한 오류를 체크하기 용이합니다.
+  'use strict';
+
+  // 플러그인 이름 정의 및 기본 옵션 설정
+  var pluginName = '${5:플러그인 이름을 추가해주세요}',
+      version    = '${6:0.0.1}',
+      document   = global.document,
+      defaults   = { ${7:'기본 속성': '값'} };
+
+  // 플러그인 생성자 - DOM 요소, 사용자 정의 옵션
+  function Plugin( element, options ) {
+    // 객체의 element 속성에 DOM 요소를 참조합니다.
+    this.element = element;
+    // \$.extend 유틸리티 메소드를 활용하여 사용자 정의 옵션 객체와 기본 옵션 객체를 병합합니다.
+    this.options = \$.extend( {}, defaults, options);
+    // 플러그인 기본 옵션 객체를 _defaults 속성에 참조합니다.
+    this._defaults = defaults;
+    // _name, _version에 각각 플러그인 이름과 버전을 참조시킵니다.
+    this._name = pluginName;
+    this._version = version;
+    // 객체 인스턴스가 생성되면 init 인스턴스 메소드를 실행합니다.
+    this.init();
+  }
+
+  // 플러그인 프로토타입
+  Plugin.prototype = {
+    init : function () {
+      // 플러그인 초기화 진행 코드 작성
+      $8
+    }
+  };
+
+  // 플러그인 코드
+  \$.fn[pluginName] = function ( options ) {
+    // this === jQuery 인스턴스 객체
+
+    // \$.each 유틸리티 메소드 활용, 수집된 DOM 객체에 각각 플러그인 인스턴스화
+    return \$.each(this, function () {
+      // this === DOM 요소 객체
+
+      // \$.data 유틸리티 메소드를 활용, DOM 객체에 플러그인 data 할당 (초기 1회 수행)
+      if ( !\$.data(this, 'plugin_' + pluginName) ) {
+        // \$.data(this, plugin_pluginName)을 통해 생성된 플러그인 인스턴스 객체에 접근 가능
+        \$.data( this, 'plugin_' + pluginName, new Plugin( this, options ) );
+      }
+    });
+  }
+
+}(window, window.jQuery));]]></content>
+	<tabTrigger>jquery-plugin-shell</tabTrigger>
+	<!-- <scope>source.python</scope> -->
+	<description>jQuery 플러그인 쉘</description>
+</snippet>

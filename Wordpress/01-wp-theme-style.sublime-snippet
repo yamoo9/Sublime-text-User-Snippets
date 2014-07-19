@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[/**
+ * style.css
+ *
+ * Theme Name  : ${1:워드프레스 커스텀 테마}
+ * Theme URI   : http://${2:yamoo9.net/wp-custom-theme}
+ * Descriotion : ${3:워드프레스 커스텀 테마 제작 템플릿 파일}
+ * Version     : ${4:0.0.1}
+ * Author      : ${5:야무(yamoo9)}
+ * Author URI  : http://${6:yamoo9.net/}
+ * License     : GNU General Public License version 3.0
+ * License URI : http://www.gnu.org/licenses/gpl-3.0.html
+ * Tags        : ${7:one-column, two-Columns, right-sidebar, left-sidebar, fluid-layout, custom-menu, featured-images, post-formats, sticky-post, translation-ready}
+ * Text Domain : ${8:Alpha}
+ *
+ */
+$9]]></content>
+	<tabTrigger>wp-theme-style</tabTrigger>
+	<!-- <scope>source.css, source.sass, source.scss</scope> -->
+	<description>워드프레스 - 테마 정보</description>
+</snippet>

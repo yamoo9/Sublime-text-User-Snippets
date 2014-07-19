@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[<!-- Qunit Test Markup -->
+<h1 id="qunit-header">${1:유닛 테스트 타이틀}</h1>
+<h2 id="qunit-banner"></h2>
+<div id="qunit-testrunner-toolbar"></div>
+<h2 id="qunit-userAgent"></h2>
+<ol id="qunit-tests"></ol>
+<div id="qunit-fixture"></div>
+<!--// Qunit Test Markup -->]]></content>
+	<tabTrigger>qunit-markup</tabTrigger>
+	<description>qunit 마크업 코드</description>
+	<!-- <scope>source.python</scope> -->
+</snippet>

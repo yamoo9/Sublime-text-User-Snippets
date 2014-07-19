@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[join(${1:\$list1}, ${2:\$list2}${3:, ${4:auto|comma|space}})]]></content>
+	<tabTrigger>join</tabTrigger>
+	<scope>source.scss, source.sass</scope>
+    <description>SASS - join, 리스트를 합치는 함수</description>
+</snippet>

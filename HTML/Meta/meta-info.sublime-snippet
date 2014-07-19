@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[<meta name="description" content="$1">
+<meta name="keywords" content="$2">
+<meta name="author" content="$3">
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>meta-info</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

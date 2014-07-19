@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[ add_action('$1', '${2:함수 이름}');
+
+function ${2:함수 이름} () {
+	$3
+}
+]]></content>
+	<tabTrigger>wp-addaction</tabTrigger>
+	<!-- <scope>source.php, text.html</scope> -->
+	<description>워드프레스 - 액션 추가</description>
+</snippet>

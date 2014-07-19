@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[\$defaults = array(
+	'default-image'          => '%s/images/default-header-image.jpg',
+	'random-default'         => true,
+	'width'                  => 960,
+	'height'                 => 320,
+	'flex-height'            => true,
+	'flex-width'             => true,
+	'default-text-color'     => '#a3a3a3',
+	'header-text'            => true,
+	'uploads'                => true,
+	'wp-head-callback'       => '',
+	'admin-head-callback'    => '',
+	'admin-preview-callback' => ''
+);
+
+add_theme_support( 'custom-header', \$defaults );]]></content>
+	<tabTrigger>wp-register-custom-header</tabTrigger>
+	<!-- <scope>source.css, source.sass, source.scss</scope> -->
+	<description>워드프레스 - 커스텀 헤더 등록</description>
+</snippet>

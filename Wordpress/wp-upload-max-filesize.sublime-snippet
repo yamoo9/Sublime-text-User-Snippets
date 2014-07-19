@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+${1:# 워드프레스 파일 업로드 최대 허용량 조정
+# 로컬호스트(Localhost)의 경우, 서버 환경설정을 통해 변경.
+# 웹 호스팅의 경우, 서버 환경을 변경할 수 없을 경우 조정이 가능하지 않음.
+# 용량은 10M 대신 숫자 값을 바꿔줌. 
+# ----------------------------------------------------------
+}php_value upload_max_filesize ${2:10}M
+]]></content>
+	<tabTrigger>wp-upload</tabTrigger>
+	<!-- <scope>source.php</scope> -->
+	<description>워드프레스 - 최대 업로드 용량 설정</description>
+</snippet>

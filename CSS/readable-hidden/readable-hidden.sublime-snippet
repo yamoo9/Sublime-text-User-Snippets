@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[.readable-hidden {
+    overflow: hidden;
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+.readable-hidden.focusable {
+    overflow: visible;
+    position: static;
+    clip: auto;
+    width: auto;
+    height: auto;
+    margin: 0;
+}]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>readable-hidden</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.css, source.sass, source.scss</scope>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+if(!Object.create) {
+	Object.create = function(obj) {
+		if(arguments.length > 1) {
+			throw new Error('전달인자는 하나(객체)여야 합니다.');
+		};
+		function F() {};
+		F.prototype = obj;
+		return new F;
+	};
+};
+]]></content>
+	<tabTrigger>fn-obj-create</tabTrigger>
+	<scope>source.js</scope>
+	<description>객체 확장 - create</description>
+</snippet>

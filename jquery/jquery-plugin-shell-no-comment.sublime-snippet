@@ -1,0 +1,37 @@
+<snippet>
+  <content><![CDATA[;(function ( global, \$, undefined ) {
+  'use strict';
+  var pluginName = '$1',
+      version    = '${2:0.0.1}',
+      document   = global.document,
+      defaults   = {};
+
+  function Plugin( element, options ) {
+    this.element = element;
+    this.options = \$.extend( {}, defaults, options);
+    this._defaults = defaults;
+    this._name = pluginName;
+    this._version = version;
+    this.init();
+  }
+
+  Plugin.prototype = {
+    init : function () {
+      $3
+    }
+  };
+
+  \$.fn[pluginName] = function ( options ) {
+
+    return \$.each(this, function () {
+      if ( !\$.data(this, 'plugin_' + pluginName) ) {
+        \$.data( this, 'plugin_' + pluginName, new Plugin( this, options ) );
+      }
+    });
+  }
+
+}(window, window.jQuery));]]></content>
+  <tabTrigger>jquery-plugin-shell-min</tabTrigger>
+	<!-- <scope>source.python</scope> -->
+  <description>jQuery 플러그인 쉘(주석X)</description>
+</snippet>

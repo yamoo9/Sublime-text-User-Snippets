@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[<link rel="shortcut icon" type="image/x-icon" href="${1:favicon.ico}">
+]]></content>
+	<tabTrigger>link-favicon</tabTrigger>
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[/*! jquery.loader.js © yamoo9.net, 2014.04 */
+(function(){
+	var on=navigator.onLine, jv=location.search.match(/[?&]jquery=(.*?)(?=&|\$)/), p;
+	if ( on && jv ) { p = 'https://code.jquery.com/jquery-' + jv[1] + '.js'; }
+	else { p = './js/libs/jquery.js'; }
+	document.write('<script src="' + p + '"></script>');
+})();]]></content>
+	<tabTrigger>jquery-loader</tabTrigger>
+	<description>jQuery 버전 로더</description>
+	<!-- <scope>source.python</scope> -->
+</snippet>

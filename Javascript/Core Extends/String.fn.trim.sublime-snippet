@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[if(!('trim' in String.prototype)) {
+    String.prototype.trim= function() {
+		return this.replace(/^\s+/, '').replace(/\s+\$/, '');
+	};
+};]]></content>
+	<tabTrigger>fn-str-trim</tabTrigger>
+	<scope>source.js</scope>
+	<description>문자 객체 확장 - trim</description>
+</snippet>

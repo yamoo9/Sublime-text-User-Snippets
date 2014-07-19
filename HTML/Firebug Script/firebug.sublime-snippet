@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[<script src="https://getfirebug.com/firebug-lite-debug.js"></script>]]></content>
+	<tabTrigger>firebug</tabTrigger>
+	<scope>text.html</scope>
+</snippet>

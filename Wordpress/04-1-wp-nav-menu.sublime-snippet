@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[\$args = array(
+	'theme_location' => '${1:메뉴ID(관리자 페이지에서 설정)}',
+	'container' => '${2: 콘테이너 요소 설정 div(기본값) | nav}',
+	'menu_class' => '$3',
+);
+
+wp_nav_menu(\$args);]]></content>
+	<tabTrigger>wp-nav-menu</tabTrigger>
+	<!-- <scope>source.css, source.sass, source.scss</scope> -->
+	<description>워드프레스 - 커스텀 메뉴 표시</description>
+</snippet>

@@ -1,0 +1,54 @@
+<snippet>
+	<content><![CDATA[
+/* PAGINATION */
+
+.paginationBox {
+	clear: both;
+	display: block;
+	float: left;
+	margin: 1em 0 2em 0;
+}
+ul.pagination {
+	margin: 0px auto 0px auto;
+	padding: 0px 0px 10px 0px;
+	position: relative;
+	font-size: 80%;
+	line-height: 1em;
+	list-style-type: none;
+}
+.pagination li {
+	float: left;
+	vertical-align: middle;
+	background-color: #fff;
+	margin-right: 1px;
+}
+
+
+.pagination span,
+.pagination a {
+	float: left;
+	border: 1px #ededed solid;
+	padding: 3px 9px 4px 9px;
+	text-decoration: none;
+	width: auto;
+	color: #999;
+}
+.pagination a:hover,
+.pagination a:focus {
+	color: #fff;
+	background-color: #777;
+	border-color: #777;
+}
+.pagination .current{
+	padding: 3px 9px 4px 9px;
+	color: #fff;
+	background-color: #777;
+	border: 1px #777 solid;
+}
+
+/* END PAGINATION */
+]]></content>
+	<tabTrigger>wp-pagenation-style</tabTrigger>
+	<!-- <scope>source.php, source.css, source.sass, source.scss</scope> -->
+	<description>워드프레스 - 페이지네이션 스타일</description>
+</snippet>

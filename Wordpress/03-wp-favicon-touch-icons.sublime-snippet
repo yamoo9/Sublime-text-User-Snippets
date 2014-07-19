@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[<link rel="shortcut icon" type="image/x-icon" href="<?php echo IMAGES; ?>${1:/icons/favicon}.png">
+<link rel="apple-touch-icon" href="<?php echo IMAGES; ?>${2:/icons/apple-touch-icon}.png">
+<link rel="apple-touch-icon" href="<?php echo IMAGES; ?>${2:/icons/apple-touch-icon-72x72}.png" sizes="72x72">
+<link rel="apple-touch-icon" href="<?php echo IMAGES; ?>${2:/icons/apple-touch-icon-114x114}.png" sizes="114x114">]]></content>
+	<tabTrigger>wp-favicon</tabTrigger>
+	<!-- <scope>source.css, source.sass, source.scss</scope> -->
+	<description>워드프레스 - 파비콘, 홈 버튼</description>
+</snippet>

@@ -1,0 +1,27 @@
+<snippet>
+    <content><![CDATA[# config.rb
+# 프로젝트 타입
+project_type     = :stand_alone
+# HTTP 경로 설정
+http_path        = "/"
+# 상대경로 설정
+relative_assets  = false
+# SASS 디렉토리
+sass_dir         = "sass"
+# CSS 디렉토리
+css_dir          = "css"
+# 이미지 디렉토리
+images_dir       = "images"
+# 웹 폰트 디렉토리
+fonts_dir        = "fonts"
+# JS 디렉토리
+javascripts_dir  = "js"
+# 라인 주석 설정
+line_comments    = false
+# 우선 적용 문법 모드 설정
+preferred_syntax = :scss
+# 아웃풋 스타일 설정
+output_style     = :compact]]></content>
+    <tabTrigger>config</tabTrigger>
+    <scope>source.ruby</scope>
+</snippet>

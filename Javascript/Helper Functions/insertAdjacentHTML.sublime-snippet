@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+insertAdjacentHTML('${1:beforebegin | afterbegin | beforeend | afterend}', '${2:HTML Code}');
+]]></content>
+	<tabTrigger>insertAdjacentHTML</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

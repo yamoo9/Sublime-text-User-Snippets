@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[if ( function_exists( 'add_theme_support' ) ) {
+	add_theme_support( 'post-thumbnails' );
+	set_post_thumbnail_size( ${1: 가로폭 사이즈}, ${2: 세로폭 사이즈}, ${3: 자르기(crop)는 true, 사이즈 조정(resize)은 false} );
+}
+]]></content>
+	<tabTrigger>wp-register-feature-image</tabTrigger>
+	<!-- <scope>source.php, text.html</scope> -->
+	<description>워드프레스 - 특성이미지 추가</description>
+</snippet>

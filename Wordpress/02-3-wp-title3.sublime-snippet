@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[if ( function_exists('is_tag') && is_tag() ) {
+		single_tag_title('태그 아카이브(Tag Archive for) &quot;'); echo '&quot; - ';
+	}
+	elseif ( is_archive() ) {
+		wp_title(''); echo ' 아카이브(Archive) - ';
+	}
+	elseif ( is_search() ) {
+		echo '검색 결과(Search for) &quot;'.wp_specialchars($s).'&quot; - ';
+	}
+	elseif ( !is_404() && is_single() || is_page() ) {
+		wp_title(''); echo ' - ';
+	}
+	elseif (is_404()) {
+		echo '결과 없음(Not Found) - ';
+	}
+	if ( is_home() ) {
+		bloginfo('name'); echo ' - '; bloginfo('description');
+	}
+	else {
+		 bloginfo('name');
+	}
+	if ( \$paged > 1 ) {
+		echo ' - 페이지(page) '. $paged;
+	}]]></content>
+	<tabTrigger>wp-title3</tabTrigger>
+	<!-- <scope>source.css, source.sass, source.scss</scope> -->
+	<description>워드프레스 - 사이트 타이틀 유형3</description>
+</snippet>

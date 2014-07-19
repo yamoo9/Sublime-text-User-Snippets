@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[${8:<!-- CATEGORIES: abstract, animals, business, cats, city, food, night, life, fashion, people, nature, sports, technics, transport -->
+}<img src="http://lorempixel.com/${1:g/}${2:400}/${3:200}/${4:city}${5:/5}" width="${2:400}" height="${3:200}" alt="${4:city}"${7: title="${6:show message}"}>]]></content>
+	<tabTrigger>img:lp</tabTrigger>
+	<!-- <scope>text.html</scope> -->
+</snippet>

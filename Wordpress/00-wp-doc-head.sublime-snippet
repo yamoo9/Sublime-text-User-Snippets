@@ -1,0 +1,37 @@
+<snippet>
+	<content><![CDATA[
+<!DOCTYPE html>
+<!--[if IEMobile 7]>         <html class="no-js iem7" <?php language_attributes(); ?>>                      <![endif]-->
+<!--[if IE 6]>               <html class="no-js lt-ie10 lt-ie9 lt-ie8 ie6" <?php language_attributes(); ?>> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]> <html class="no-js lt-ie10 lt-ie9 lt-ie8 ie7" <?php language_attributes(); ?>> <![endif]-->
+<!--[if (IE 8)&!(IEMobile)]> <html class="no-js lt-ie10 lt-ie9 ie8" <?php language_attributes(); ?>>        <![endif]-->
+<!--[if (IE 9)&!(IEMobile)]> <html class="no-js lt-ie10 ie9" <?php language_attributes(); ?>>               <![endif]-->
+<!--[if (gt IE 9)|(gt IEMobile 7)|!(IEMobile)]><!-->
+<html class="no-js" <?php language_attributes(); ?>><!--<![endif]-->
+<head>
+<meta charset="<?php bloginfo( 'charset' ); ?>" />
+<meta http-equiv="cleartype" content="on">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1">
+<title><?php wp_title( '|', true, 'right' ); ?></title>
+<meta name="author" content="yamoo9" />
+<meta name="HandheldFriendly" content="True" />
+<meta name="MobileOptimized" content="320" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/master.css" /> -->
+<!-- <link rel="shortcut icon" href="/favicon.ico" /> -->
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+<script src="<?php echo get_template_directory_uri(); ?>/js/libs/modernizr-min.js"></script>
+<script>window.js_dir="<?php echo get_template_directory_uri(); ?>"</script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/load.js"></script>
+<!--[if (lt IE 9) & (!IEMobile)]>
+<script src="<?php echo get_template_directory_uri(); ?>js/libs/selectivizr-min.js"></script>
+<![endif]-->
+
+<?php wp_head(); ?>
+</head>
+]]></content>
+	<tabTrigger>wp-dochead</tabTrigger>
+	<!-- <scope>source.php</scope> -->
+	<description>워드프레스 - 문서헤더</description>
+</snippet>

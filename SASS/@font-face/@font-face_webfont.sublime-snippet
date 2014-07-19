@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[@font-face {
+    font-family: '${1:FontName}';
+    src: url('${2:FileName}.eot');
+    src: url('${2:FileName}.eot?#iefix') format('embedded-opentype'),
+         url('${2:FileName}.woff') format('woff'),
+         url('${2:FileName}.ttf') format('truetype'),
+         url('${2:FileName}.svg#${1:FontName}') format('svg');
+    ${3:font-style: ${4:normal};}
+    ${5:font-weight: ${6:normal};}
+}
+$0]]></content>
+    <tabTrigger>webfont</tabTrigger>
+	<scope>source.scss, source.sass</scope>
+    <description>SASS - 웹폰트 코드</description>
+</snippet>

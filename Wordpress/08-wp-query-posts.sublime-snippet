@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+${1:
+# 사용자 정의 메뉴 설정
+# query_posts()
+# posts_per_page=-1		=> -1 : 모든 페이지
+# post_type=page 		=> page : 정적인 페이지 대상
+# orderby=menu_order 	=> 나열 기준 : 정적인 페이지 순
+# order=asc 			=> asc : 내림차순
+# post_parent=60 		=> 60 : 상위 페이지의 ID
+# wp_reset_query();		=> query_posts()를 사용한 후에는 반드시 wp_reset_query()를 사용해야 함.
+}query_posts('${2:posts_per_page=-1&post_type=page&orderby=menu_order&order=asc&post_parent=60}');
+]]></content>
+	<tabTrigger>wp-queryposts</tabTrigger>
+	<!-- <scope>source.php, text.html</scope> -->
+	<description>워드프레스 - 포스트 추출 템플릿 태그</description>
+</snippet>

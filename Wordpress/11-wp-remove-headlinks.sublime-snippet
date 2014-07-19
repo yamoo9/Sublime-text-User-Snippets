@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+add_action('init', 'removeHeadLinks');
+
+function removeHeadLinks() {
+	remove_action('wp_head', 'rsd_link');         // application/rsd+xml
+	remove_action('wp_head', 'wlwmanifest_link'); // application/wlwmanifest+xml
+	remove_action('wp_head', 'wp_generator');     // 워드프레스 버전 정보 제거 (보안)
+}
+]]></content>
+	<tabTrigger>wp-remove-headlinks</tabTrigger>
+	<scope>source.php</scope>
+	<description>워드프레스 - 헤드 링크 제거</description>
+</snippet>

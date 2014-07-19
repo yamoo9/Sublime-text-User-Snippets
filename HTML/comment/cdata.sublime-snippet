@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[//<![CDATA[
+    $1
+//]]\>]]></content>
+    <tabTrigger>cdata</tabTrigger>
+    <scope>text.html, source.xml</scope>
+    <description>CDATA Section</description>
+</snippet>

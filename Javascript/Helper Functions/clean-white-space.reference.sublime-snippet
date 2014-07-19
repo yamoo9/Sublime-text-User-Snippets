@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+function cleanWhiteSpace(element) {
+    element = element || document;
+    var cur = element.firstChild;
+    while ( cur !== null ) {
+        if( cur.nodeType === 3 && ! /\S/.test(cur.nodeValue) ) {
+            element.removeChild(cur);
+        } else if(cur.nodeType === 1) {
+            cleanWhiteSpace(cur);
+        }
+        cur = cur.nextSibling;
+    }
+}
+]]></content>
+	<tabTrigger>cleanwhitespace</tabTrigger>
+	<scope>source.js</scope>
+	<desription>공백을 제거하는 함수</desription>
+</snippet>

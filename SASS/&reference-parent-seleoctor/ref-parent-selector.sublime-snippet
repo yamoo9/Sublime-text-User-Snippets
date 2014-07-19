@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[&$1 {
+    $2
+}
+$0]]></content>
+    <tabTrigger>nested-parent</tabTrigger>
+    <scope>source.scss, source.sass</scope>
+    <description>SASS - 중첩 규칙, 부모 참조</description>
+</snippet>

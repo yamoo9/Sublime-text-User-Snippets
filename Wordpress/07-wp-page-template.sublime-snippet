@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[/* Template Name: ${1:페이지 템플릿 이름} */]]></content>
+	<tabTrigger>wp-template</tabTrigger>
+	<!-- <scope>source.php</scope> -->
+	<description>워드프레스 - 페이지 템플릿</description>
+</snippet>

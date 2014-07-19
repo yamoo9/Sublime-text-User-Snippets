@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[mix(${1:\$color1}, ${2:\$color2}, ${3:\$weight:50%})]]></content>
+    <tabTrigger>mix</tabTrigger>
+    <scope>source.scss, source.sass</scope>
+    <description>SASS - mix 컬러 함수</description>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[<!-- Qunit 테스트 -->
+<div id="qunit"></div>
+<div id="qunit-fixture"></div>
+<!--// Qunit 테스트 -->]]></content>
+	<tabTrigger>qunit-test</tabTrigger>
+	<description>QUnit 테스트</description>
+	<!-- <scope>source.python</scope> -->
+</snippet>

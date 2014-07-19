@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[<${1:div} id="${2:영역 식별자}"${3: class="$4"}>
+	$5
+</${1:div}><!--// #${2:영역 식별자} -->
+]]></content>
+	<tabTrigger>container</tabTrigger>
+	<scope>text.html, source.php</scope>
+</snippet>

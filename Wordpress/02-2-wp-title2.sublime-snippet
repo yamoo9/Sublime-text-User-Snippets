@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[global \$page, \$paged;
+
+	wp_title('|', true, 'right');
+	bloginfo('name');
+
+	if ( is_home() || is_front_page() ) {
+		echo ' - ' . bloginfo('description');
+	} 
+	elseif ( \$page > 1 || \$paged > 1 ) {
+		echo sprintf( __('페이지 %s'), max( \$paged, \$page ) );
+	}]]></content>
+	<tabTrigger>wp-title2</tabTrigger>
+	<!-- <scope>source.css, source.sass, source.scss</scope> -->
+	<description>워드프레스 - 사이트 타이틀 유형2</description>
+</snippet>

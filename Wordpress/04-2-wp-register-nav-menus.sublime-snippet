@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[register_nav_menus(
+	array(
+		'${1:메뉴ID}' => '${2:관리자 페이지에 표시할 이름}'
+	)
+);
+]]></content>
+	<tabTrigger>wp-register-nav-menus</tabTrigger>
+	<!-- <scope>source.php, text.html</scope> -->
+	<description>워드프레스 - 사용자 정의 메뉴 등록</description>
+</snippet>

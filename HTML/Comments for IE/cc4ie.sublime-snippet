@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<!--[if IE 6]> <${1:html} class="no-js lt-ie10 lt-ie9 lt-ie8 ie6" ${2:lang="ko-KR"}> <![endif]-->
+<!--[if IE 7]> <${1:html} class="no-js lt-ie10 lt-ie9 lt-ie8 ie7" ${2:lang="ko-KR"}> <![endif]-->
+<!--[if IE 8]> <${1:html} class="no-js lt-ie10 lt-ie9 ie8" ${2:lang="ko-KR"}> <![endif]-->
+<!--[if IE 9]> <${1:html} class="no-js lt-ie10 ie9" ${2:lang="ko-KR"}> <![endif]-->
+<!--[if gt IE 9]><!--> <${1:html} class="no-js" ${2:lang="ko-KR"}> <!--<![endif]-->
+]]></content>
+	<tabTrigger>cc4ie</tabTrigger>
+	<scope>text.html</scope>
+	<description>HTML 조건부 주석문 for IE</description>
+</snippet>

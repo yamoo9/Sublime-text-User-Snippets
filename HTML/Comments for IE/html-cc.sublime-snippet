@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[<!--[if IE 6]><html class="lt-ie10 lt-ie9 lt-ie8 ie6" lang="${1}"><![endif]-->
+<!--[if IE 7]><html class="lt-ie10 lt-ie9 lt-ie8 ie7" lang="${1}"><![endif]-->
+<!--[if IE 8]><html class="lt-ie10 lt-ie9 ie8" lang="${1}"><![endif]-->
+<!--[if IE 9]><html class="lt-ie10 ie9" lang="${1}"><![endif]-->
+<!--[if !IE]><!--><html lang="${1}" ${3:class="${2}"}><!--<![endif]-->]]></content>
+	<tabTrigger>crossie</tabTrigger>
+	<!-- <scope>source.html</scope> -->
+	<description>HTML 조건부 주석 구분 처리</description>
+</snippet>

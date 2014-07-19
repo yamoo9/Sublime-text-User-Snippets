@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+&larr;
+]]></content>
+	<tabTrigger>larr</tabTrigger>
+	<scope>text.html, source.php</scope>
+</snippet>

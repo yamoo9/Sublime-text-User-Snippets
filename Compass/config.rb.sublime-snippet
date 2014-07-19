@@ -1,0 +1,32 @@
+<snippet>
+	<content><![CDATA[
+# Compass 플러그인 추가
+
+# 프로젝트 내 폴더 경로 지정
+http_path = "${1:/}"
+css_dir = "${2:_/css}"
+sass_dir = "${3:_/sass}"
+images_dir = "${4:_/images}"
+javascripts_dir = "${5:_/js}"
+
+# SASS => CSS 변경 시에 변경되는 아웃풋 스타일 설정
+# output_style = :expanded | :nested | :compact | :compressed
+output_style = ${6::expanded}
+
+# 상대 경로 지정 설정
+${7:# }relative_assets = ${8:true}
+
+# 변경된 내용 주석 처리 여부
+${9:# }line_comments = ${10:false}
+
+
+# 만약 SASS 구문을 더 선호한다면, SCSS => SASS 문법으로 변경
+# project again passing --syntax sass, 주석의 #을 지우세요.
+${11:# }preferred_syntax = :sass
+# 아래 코드를 실행하세요. (주석의 #을 지우세요)
+${12:# }sass-convert -R --from scss --to sass common/css/input scss && rm -rf sass && mv scss sass
+]]></content>
+	<tabTrigger>compass-config</tabTrigger>
+	<!-- <scope>source.python</scope> -->
+	<description>compass- config.rb</description>
+</snippet>
