@@ -2,6 +2,11 @@
 	<content><![CDATA[
 # Compass 플러그인 추가
 
+# CSS 파일 기본 인코딩(Default Encoding) 설정
+# Windows에서 한글, 일어, 중국어 등 SCSS 파일을 CSS로 컴파일 시 문자 인코딩 에러가 생길 경우
+# 아래 코드를 설정하여 기본 인코딩을 UTF-8로 설정하면 문제가 해결됨.
+Encoding.default_external = "utf-8"
+
 # 프로젝트 내 폴더 경로 지정
 http_path = "${1:/}"
 css_dir = "${2:_/css}"
