@@ -1,0 +1,26 @@
+<snippet>
+    <content><![CDATA[${8:<!--
+iOS 모바일 앱 커스터마이즈 (iOS Mobile Apps Customize)
+참고: andrespagella.com/browser-bugs-tricks-any-frontend-dev-should-know#16
+==========================================================================
+meta[name="apple-mobile-web-app-title"]             : 애플리케이션 타이틀
+meta[name="apple-mobile-web-app-capable"]           : 풀 스크린 모드 설정
+meta[name="apple-mobile-web-app-status-bar-style"]  : 상태 표시바 컬러 설정
+link[rel="apple-touch-icon" size="NxN"]             : 애플리케이션 아이콘
+link[rel="apple-touch-startup-image"]               : 스플래쉬 스크린 이미지
+-->
+}<meta name="apple-mobile-web-app-title" content="${1:짧은 타이틀}">
+<meta name="apple-mobile-web-app-capable" content="${2:yes}">
+<meta name="apple-mobile-web-app-status-bar-style" content="${3:black}">
+
+<link rel="apple-touch-icon" href="${4:touch-icon-iphone.png}">
+<link rel="apple-touch-icon" sizes="72x72" href="${5:touch-icon-ipad.png}">
+<link rel="apple-touch-icon" sizes="114x114" href="${6:touch-icon-iphone4.png}">
+
+<link rel="apple-touch-startup-image" href="${7:startup.png}">
+$9]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>ios-app</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.html</scope>
+</snippet>
