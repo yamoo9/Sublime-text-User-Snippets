@@ -4,7 +4,6 @@
  * $1
  * --------------------------------$2
  */
-$3
 ]]></content>
 	<tabTrigger>cmt-subsection</tabTrigger>
 	<!-- <scope>source.css, source.sass, source.scss, source.less</scope> -->

@@ -5,7 +5,6 @@
  * $1
  * --------------------------------$2
  */
-$3
 ]]></content>
 	<tabTrigger>cmt-section</tabTrigger>
 	<!-- <scope>source.css, source.sass, source.scss, source.less, source.php</scope> -->
