@@ -14,6 +14,9 @@ sass_dir = "${3:_/sass}"
 images_dir = "${4:_/images}"
 javascripts_dir = "${5:_/js}"
 
+# Bower 패키지 매니저 Compass에서 활용 https://coderwall.com/p/bhb0pq
+extensions_dir = "bower_components"
+
 # SASS => CSS 변경 시에 변경되는 아웃풋 스타일 설정
 # output_style = :expanded | :nested | :compact | :compressed
 output_style = ${6::expanded}
