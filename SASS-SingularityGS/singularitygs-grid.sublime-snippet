@@ -1,0 +1,55 @@
+<snippet>
+	<content><![CDATA[/*! grid.js © yamoo9.net, 2014 */
+(function() {
+
+	/**
+	 * 스코프 지역변수
+	 * className 변수에 사용자가 설정하고자 하는 class 속성 값으로 변경하여 사용할 수 있습니다.
+	 */
+	var win_load = window.onload,
+		className = 'data-${1:toggle-grid}',
+		body;
+
+	/**
+	 * win_load 유형이 함수가 아니라면(window.onload에 설정된 함수가 없다면) settingGrid 실행
+	 * win_load 유형이 함수라면, loadingAction 실행
+	 */
+	window.onload = (typeof win_load != 'function') ? settingGrid : loadingAction;
+
+	/**
+	 * loadingAction 함수
+	 */
+	function loadingAction() {
+		win_load();
+		settingGrid();
+	}
+
+	/**
+	 * settingGrid 함수
+	 */
+	function settingGrid() {
+		body = document.body;
+		body.onkeypress = toggleGrid;
+		toggleGrid();
+	}
+
+	/**
+	 * toggleGrid 함수
+	 */
+	function toggleGrid(e) {
+		// 103 == g
+		if (!e || e.keyCode == 103 || e.charCode == 103) {
+				var dev = body.getAttribute(className);
+			if (dev === null || dev == 'hide') {
+				body.setAttribute(className, 'show'); }
+			else {
+				body.setAttribute(className, 'hide'); }
+		}
+    }
+
+})();]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sgs-grid</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

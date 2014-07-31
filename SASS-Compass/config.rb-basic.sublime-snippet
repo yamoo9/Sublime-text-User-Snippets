@@ -20,8 +20,6 @@ images_dir       = "images"
 fonts_dir        = "fonts"
 # JS 디렉토리
 javascripts_dir  = "js"
-# Bower 패키지 매니저 Compass에서 활용 https://coderwall.com/p/bhb0pq
-extensions_dir = "bower_components"
 # 라인 주석 설정
 line_comments    = false
 # 우선 적용 문법 모드 설정

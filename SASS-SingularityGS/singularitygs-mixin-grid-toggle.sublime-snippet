@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[// 그리드 토글 믹스인
+@mixin grid-toggle(\$bg-color: #ff7c7c, \$class-name: 'data-toggle-grid') {
+	body[#{\$class-name}="show"] & { @include background-grid(\$color: \$bg-color); }
+}]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sgs-mixin-grid-toggle</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.scss, source.sass</scope>
+	<description>SGS - 그리드 토글 믹스인</description>
+</snippet>
