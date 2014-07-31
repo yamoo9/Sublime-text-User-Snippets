@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[@include yep(${1:CSS3 속성}) {
+	$2
+}
+
+@include nope(${1:CSS3 속성}) {
+	$3
+}
+$4]]>
+</content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>modernizr</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.scss, source.sass</scope>
+	<description>Modernizr 믹스인</description>
+</snippet>

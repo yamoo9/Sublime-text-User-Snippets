@@ -1,6 +1,0 @@
-<snippet>
-  <content><![CDATA[<script src="${1:http:}//code.jquery.com/jquery${2:.min}.js"></script>]]></content>
-  <tabTrigger>jquery</tabTrigger>
-  <!-- <scope>source.python</scope> -->
-  <description>Script 호출: jQuery</description>
-</snippet>

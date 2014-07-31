@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+&hearts;
+]]></content>
+	<tabTrigger>hearts</tabTrigger>
+	<scope>text.html</scope>
+</snippet>

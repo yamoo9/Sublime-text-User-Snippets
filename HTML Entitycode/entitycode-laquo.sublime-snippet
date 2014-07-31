@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+&laquo;
+]]></content>
+	<tabTrigger>laquo</tabTrigger>
+	<scope>text.html</scope>
+</snippet>
