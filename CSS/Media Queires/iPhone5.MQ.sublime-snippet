@@ -1,12 +1,10 @@
 <snippet>
 	<content><![CDATA[
 @media (device-height: 568px) and (-webkit-min-device-pixel-ratio: 2) {
-	$1	
+	$1
 }
 ]]></content>
-	<tabTrigger>iphone5mq</tabTrigger>
-	<scope>source.css, source.sass, source.less</scope>
-	<description>
-		아이5 미디어쿼리
-	</description>
+	<tabTrigger>mq-iphone5</tabTrigger>
+	<scope>source.css, source.sass, source.less, source.scss</scope>
+	<description>아이폰5 미디어쿼리</description>
 </snippet>

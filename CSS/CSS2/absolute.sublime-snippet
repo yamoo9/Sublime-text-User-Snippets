@@ -3,6 +3,6 @@
 
 ]]></content>
 	<tabTrigger>abs</tabTrigger>
-    <description>CSS - position: absolute;</description>
-    <scope>source.css</scope>
+    <description>CSS - 절대 위치지정</description>
+    <scope>source.css, source.sass, source.scss, source.less</scope>
 </snippet>

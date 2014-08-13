@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[@media ${1:only screen} and (${2:max-device-width}: ${3:480px}) ${4: }{
+    <content><![CDATA[@media ${1:only screen} and (${2:min-device-width}: ${3:480px}) ${4: }{
 	$0
 }]]></content>
     <tabTrigger>media-queries</tabTrigger>
