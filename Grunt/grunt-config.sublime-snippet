@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[var ${2:grunt_config} = {
+	pkg: grunt.file.readJSON('${3:package.json}')${4:,}
+};
+${1:grunt}.initConfig( ${2:grunt_config} );]]></content>
+	<tabTrigger>grunt-config</tabTrigger>
+	<scope>source.js, source.coffee</scope>
+	<description>설정 함수</description>
+</snippet>

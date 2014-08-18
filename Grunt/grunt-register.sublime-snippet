@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[${1:grunt}.registerTask('${2:default}', [$3]);]]></content>
+	<tabTrigger>grunt-registerTask</tabTrigger>
+	<scope>source.js, source.coffee</scope>
+	<description>테스크 등록 함수</description>
+</snippet>

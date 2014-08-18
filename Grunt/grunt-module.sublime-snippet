@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[module.exports = function(${1:grunt}){
+	$2
+};]]></content>
+	<tabTrigger>grunt-module</tabTrigger>
+	<scope>source.js, source.coffee</scope>
+	<description>모듈 함수</description>
+</snippet>
