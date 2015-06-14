@@ -1,6 +1,6 @@
 <snippet>
-	<content><![CDATA[<link rel="shortcut icon" type="image/x-icon" href="${1:favicon.ico}">
-]]></content>
-	<tabTrigger>link-favicon</tabTrigger>
+	<content><![CDATA[<!-- 파비콘 제너레이터: http://realfavicongenerator.net/ -->
+<link rel="icon" type="image/png" href="${1:favicon.png}">]]></content>
+	<tabTrigger>link:favicons</tabTrigger>
 	<scope>text.html</scope>
 </snippet>

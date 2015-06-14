@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[column-gap: ${1:20px};]]></content>
+  <tabTrigger>column-gap</tabTrigger>
+  <scope>source.css, source.sass, source.scss</scope>
+</snippet>

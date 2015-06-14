@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[//////////////////////////////
-// $1
-//////////////////////////////]]></content>
-	<tabTrigger>cmt-sass-section</tabTrigger>
-	<scope>source.sass, source.scss, source.less, source.php</scope>
-	<description>SASS - 섹션 주석</description>
-</snippet>

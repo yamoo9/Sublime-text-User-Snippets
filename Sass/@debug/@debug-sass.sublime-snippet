@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[@debug $0]]></content>
+	<tabTrigger>debug</tabTrigger>
+	<scope>source.sass</scope>
+    <description>Sass - @debug</description>
+</snippet>

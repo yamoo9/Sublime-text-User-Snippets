@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[&$1 {
+	$2
+}
+]]></content>
+    <tabTrigger>&</tabTrigger>
+    <scope>source.scss</scope>
+    <description>Sass - 중첩 규칙, 부모 참조</description>
+</snippet>

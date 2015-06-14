@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[@for \$i from ${1:1} ${2:through} ${3:10} {
+	$4
+}
+$0]]></content>
+	<tabTrigger>for</tabTrigger>
+	<scope>source.scss</scope>
+    <description>Sass - @for 문</description>
+</snippet>

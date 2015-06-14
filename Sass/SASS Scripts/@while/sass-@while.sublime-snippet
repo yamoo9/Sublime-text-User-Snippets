@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[\$i: ${1:1}
+@while \$i ${2:<=} ${3:12}
+	${4:.${5:item-}${6:#{\$i\}}}
+		$7
+		${8:\$i: \$i + ${9:1}}
+$0]]></content>
+	<tabTrigger>while</tabTrigger>
+	<scope>source.sass</scope>
+    <description>Sass - @while 문</description>
+</snippet>

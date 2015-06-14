@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[selector-parse(${1:\$selector})]]></content>
+	<tabTrigger>selector-parse</tabTrigger>
+	<scope>source.sass, source.scss</scope>
+    <description>Sass - selector-parse() 함수</description>
+</snippet>

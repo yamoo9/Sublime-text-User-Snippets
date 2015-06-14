@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[//
+ * --------------------------------$2
+ * $1
+ * --------------------------------$2
+$0]]></content>
+	<tabTrigger>cmt-sass-section</tabTrigger>
+	<scope>source.sass</scope>
+	<description>Sass - 섹션 주석</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[@extend ${1:상속 선택자 이름};]]></content>
+    <tabTrigger>/</tabTrigger>
+    <scope>source.scss</scope>
+    <description>Sass - 익스텐드 호출</description>
+</snippet>

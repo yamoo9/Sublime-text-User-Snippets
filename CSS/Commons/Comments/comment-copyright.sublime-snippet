@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+/*! ${2:style.css} © ${3:yamoo9.net}, ${4:2014} */
+$0]]></content>
+	<tabTrigger>cmt+/</tabTrigger>
+	<!-- <scope>source.js, source.css, source.sass, source.scss, source.less</scope> -->
+	<description>저작권 싱글 주석</description>
+</snippet>

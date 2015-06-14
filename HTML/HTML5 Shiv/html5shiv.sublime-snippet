@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[<!-- https://code.google.com/p/html5shim/ -->
+<!--[if lt IE 9]>
+${1:	<script src="https://raw.githubusercontent.com/aFarkas/html5shiv/master/dist/html5shiv.min.js"></script>}
+${2:	<script src="https://raw.githubusercontent.com/aFarkas/html5shiv/master/dist/html5shiv-printshiv.min.js"></script>}
+<![endif]-->
+$0]]></content>
+    <tabTrigger>html5shiv</tabTrigger>
+    <scope>text.html</scope>
+</snippet>

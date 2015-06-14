@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[@if ${1:변수} ${2:==} ${3:true|false}
+	$4
+@else if
+	$5
+${6: @else}
+	$7
+$0]]></content>
+    <tabTrigger>ifelseif</tabTrigger>
+	<scope>source.sass</scope>
+    <description>Sass - @if @else if 문</description>
+</snippet>

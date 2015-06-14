@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[gulp.dest($1)]]></content>
+    <tabTrigger>gulp-dest</tabTrigger>
+    <scope>source.js</scope>
+    <description>Gulp - Dest</description>
+</snippet>

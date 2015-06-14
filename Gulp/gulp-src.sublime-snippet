@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[gulp.src($1)]]></content>
+    <tabTrigger>gulp-src</tabTrigger>
+    <scope>source.js</scope>
+    <description>Gulp - Src</description>
+</snippet>

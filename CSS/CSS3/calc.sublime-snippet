@@ -1,8 +1,6 @@
 <snippet>
-	<content><![CDATA[${1:width}: -webkit-calc( $2 );
-${1:width}: -moz-calc( $2 );
-${1:width}: calc( $2 );]]></content>
+	<content><![CDATA[calc($1)]]></content>
 	<tabTrigger>calc</tabTrigger>
-	<!-- <scope>source.python</scope> -->
+	<scope>source.css, source.sass, source.scss</scope>
 	<description>calc: CSS 계산 함수</description>
 </snippet>

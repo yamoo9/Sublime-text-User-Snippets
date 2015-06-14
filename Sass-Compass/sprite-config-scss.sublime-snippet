@@ -1,0 +1,35 @@
+<snippet>
+    <content><![CDATA[// 사용자 정의 설정
+// ---------------------------------------------------------------
+\$${1:폴더이름}-spacing           : 0px;       // 10px
+// \$${1:폴더이름}-{이미지파일이름}-spacing : 0px; // 개별 이미지 간격 설정
+\$${1:폴더이름}-repeat            : no-repeat; // repeat-x
+\$${1:폴더이름}-position          : 0px;       // 100%
+\$${1:폴더이름}-sprite-dimensions : false;     // true
+\$${1:폴더이름}-sprite-base-class : '.${1:폴더 이름}-sprite';
+
+// ---------------------------------------------------------------
+// 레이아웃
+// vertical, horizontal, diagonal, smart
+// smart 레이아웃의 경우, 이미지 크기가 각각 다르면 자동으로 스마트하게 레이아웃 설정
+\$${1:폴더이름}-layout: vertical;
+
+// ---------------------------------------------------------------
+// 매직 선택자란?
+// 이미지 파일 이름 뒤에 아래와 같은 식별자를 붙이면 자동으로 선택자를 생성하는 기능
+// 파일이름_hover.png
+// 파일이름_active.png
+// 파일이름_target.png
+
+// 매직 선택자 해제 설정
+\$disable-magic-sprite-selectors: false;
+
+// ---------------------------------------------------------------
+// 정렬 기준설정
+// width, height, size, name, none
+\$${1:폴더이름}-sort-by: none;
+$0]]></content>
+    <tabTrigger>compass-sprite-config</tabTrigger>
+    <scope>source.scss</scope>
+    <description>Compass - 스프라이트 이미지 생성: 환경설정</description>
+</snippet>

@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[${2:/*  탭 하이라이트 컬러
     참고: http://davidwalsh.name/mobile-highlight-color */
-}-webkit-tap-highlight-color: ${1:#fc8d8b};
+}-webkit-tap-highlight-color: ${1:hsla(0,0%,0%,.5)};
 tap-highlight-color: ${1:hsla(0,0%,0%,.5)};
-$3]]></content>
+$0]]></content>
 	<tabTrigger>tap-highlight-color</tabTrigger>
     <description>탭 하이라이트 컬러</description>
     <scope>source.css, source.sass, source.scss, source.less</scope>

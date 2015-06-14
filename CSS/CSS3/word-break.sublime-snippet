@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[word-break: ${1:normal|break-all|keep-all};]]></content>
+	<tabTrigger>word-break</tabTrigger>
+    <!-- <description>CSS - word-break</description> -->
+    <scope>source.css</scope>
+</snippet>

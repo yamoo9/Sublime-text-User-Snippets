@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[transform-style: ${1:flat|preserve-3d};]]></content>
+	<tabTrigger>transform-style</tabTrigger>
+	<scope>source.css, source.scss, source.sass</scope>
+</snippet>

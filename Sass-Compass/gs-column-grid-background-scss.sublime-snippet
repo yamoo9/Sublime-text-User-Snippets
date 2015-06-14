@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[//
+ * --------------------------------
+ * Compass - 그리드 시스템: 컬럼 옵션
+${2:// }\$total          : ${1:컬럼의 총 개수}
+${4:// }\$column         : ${3:컬럼 폭}
+${6:// }\$gutter         : ${5:거터 폭}
+${8:// }\$offset         : ${7:옵셋}
+${10:// }\$column-color   : ${9:컬럼 색상}
+${12:// }\$gutter-color   : ${11:거터 색상}
+${14:// }\$force-fluid    : ${13:거터 방향 설정}
+
+${15:.grid} {
+	// Compass - 그리드 시스템: grid-column-background() 믹스인
+	+column-grid-background(${16:\$total, \$column, \$gutter, \$offset, \$column-color, \$gutter-color, \$force-fluid});
+}
+$0]]></content>
+    <tabTrigger>compass-gs-column-grid-background</tabTrigger>
+    <scope>source.scss</scope>
+    <description>Compass - 그리드 시스템: grid-column-background()</description>
+</snippet>

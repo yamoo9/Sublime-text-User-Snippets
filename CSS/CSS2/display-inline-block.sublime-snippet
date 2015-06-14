@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[display: inline-block;
+vertical-align: ${1:top};${2:
+zoom: 1;
+*display: inline; /* IE 7 이하 브라우저 핵 */}]]></content>
+	<tabTrigger>dis-inline-block</tabTrigger>
+    <description>CSS - display: inline-block;</description>
+    <scope>source.css</scope>
+</snippet>

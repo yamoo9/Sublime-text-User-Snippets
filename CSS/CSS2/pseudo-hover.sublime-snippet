@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[$1:hover,
+$1:focus {
+	$2
+}
+$0]]></content>
+	<tabTrigger>hov/</tabTrigger>
+    <description>CSS - :hover, :focus</description>
+    <scope>source.css</scope>
+</snippet>

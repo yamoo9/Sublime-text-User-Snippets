@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-@charset "${1:utf-8}"${2:;}
-$3
-]]></content>
-	<tabTrigger>charset</tabTrigger>
-	<scope>source.css, source.scss, source.sass, source.less</scope>
-	<description>스타일 - 문서 언어인코딩</description>
-</snippet>

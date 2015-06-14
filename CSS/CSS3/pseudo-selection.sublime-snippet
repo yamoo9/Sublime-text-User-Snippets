@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[::-moz-selection {
+    background: $1;
+    text-shadow: none;
+}
+::selection {
+    background: $1;
+    text-shadow: none;
+}]]></content>
+    <tabTrigger>selection/</tabTrigger>
+    <scope>source.css, source.sass, source.scss</scope>
+</snippet>

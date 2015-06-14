@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[transform-style: ${1:preserve-3d};
+transform-origin: ${2:50%}${3: 50%};
+transform: perspective(${4:400px}) $0]]></content>
+	<tabTrigger>transform-3d</tabTrigger>
+    <description>CSS - Transform 3D</description>
+    <scope>source.css</scope>
+</snippet>

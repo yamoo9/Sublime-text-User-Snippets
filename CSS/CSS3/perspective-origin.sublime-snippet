@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[perspective-origin: ${1:50%} ${2:50%};]]></content>
+	<tabTrigger>perspective-origin</tabTrigger>
+	<scope>source.css, source.scss, source.sass</scope>
+</snippet>

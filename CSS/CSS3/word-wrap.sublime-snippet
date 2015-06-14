@@ -1,9 +1,7 @@
 <snippet>
-	<content><![CDATA[overflow-wrap: break-word;
-word-wrap: break-word;
-
-]]></content>
-	<tabTrigger>wra</tabTrigger>
-    <description>CSS - word-wrap</description>
+	<content><![CDATA[overflow-wrap: ${1:break-word|normal};
+word-wrap: ${1:break-word|normal};]]></content>
+	<tabTrigger>word-wrap</tabTrigger>
+    <!-- <description>CSS - word-wrap</description> -->
     <scope>source.css</scope>
 </snippet>

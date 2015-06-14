@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[gulp.watch($1, $2)]]></content>
+    <tabTrigger>gulp-watch</tabTrigger>
+    <scope>source.js</scope>
+    <description>Gulp - Watch</description>
+</snippet>

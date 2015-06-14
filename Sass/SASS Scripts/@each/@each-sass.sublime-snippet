@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[@each \$${1:var} in ${2:item1, item2, item3}
+	.#{\$$1}$3
+		$4
+$0]]></content>
+	<tabTrigger>each</tabTrigger>
+	<scope>source.sass</scope>
+    <description>Sass - @each 문</description>
+</snippet>

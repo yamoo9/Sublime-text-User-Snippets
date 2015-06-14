@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[@include ${1:스프라이트 폴더 이름}-sprite(${2:가져올 배경이미지 파일 이름});
-width: ${1:스프라이트 폴더 이름}-sprite-width(${2:가져올 배경이미지 파일 이름});
-height: ${1:스프라이트 폴더 이름}-sprite-height(${2:가져올 배경이미지 파일 이름});]]></content>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>sprite-single</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
-    <scope>source.scss, source.sass</scope>
-</snippet>

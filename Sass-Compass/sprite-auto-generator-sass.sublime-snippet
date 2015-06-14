@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[${3:// 폴더에 이미지만 추가하면 자동으로 스프라이트 이미지 생성
+// 스프라이트 맵 정의
+}\$${1:폴더 이름}-map: sprite-map("${1:폴더 이름}/*.png")
+${4:
+// @each 반복문을 통해 스프라이트 이미지 코드 생성
+}@each \$${2:item} in sprite-names(\$${1:폴더 이름}-map)
+	.${1:폴더 이름}-sprites
+		.#{\$${2:item}}
+			+${1:폴더 이름}-sprite(#{\$${2:item}})
+			width: +${1:폴더 이름}-sprite-width(#{\$${2:item}})
+			height: +${1:폴더 이름}-sprite-height(#{\$${2:item}})
+$0]]></content>
+	<tabTrigger>compass-sprite-map</tabTrigger>
+	<scope>source.sass</scope>
+	<description>Compass - 스프라이트 이미지 생성: Map 구문</description>
+</snippet>

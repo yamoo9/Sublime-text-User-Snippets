@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[@import "${1:스프라이트 폴더 이름}/*.png";
-@include all-${1:스프라이트 폴더 이름}-sprites;]]></content>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>sprite</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
-    <scope>source.scss, source.sass</scope>
-</snippet>

@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[column-count: ${1:3};]]></content>
+  <tabTrigger>column-count</tabTrigger>
+  <scope>source.css, source.sass, source.scss</scope>
+</snippet>

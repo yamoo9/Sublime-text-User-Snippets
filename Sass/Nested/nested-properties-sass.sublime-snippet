@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[${1:margin}:
+	$2]]></content>
+    <tabTrigger>nested-properties</tabTrigger>
+    <scope>source.sass</scope>
+    <description>Sass - 중첩 속성 정의</description>
+</snippet>

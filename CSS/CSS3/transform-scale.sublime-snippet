@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[transform: scale(${1:1});]]></content>
+	<tabTrigger>transform-scale</tabTrigger>
+    <!-- <description>CSS - Transform 2D</description> -->
+    <scope>source.css, source.scss, source.sass</scope>
+</snippet>

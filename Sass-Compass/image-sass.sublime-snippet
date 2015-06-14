@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[\$${1:img-path}: '${2:이미지 파일경로}'
+background: image-url(\$${1:img-path})
+width: image-width(\$${1:img-path})
+height: image-height(\$${1:img-path})
+$0]]></content>
+    <tabTrigger>compass-image</tabTrigger>
+    <scope>source.sass</scope>
+    <description>Compass - 이미지 파일 경로 설정에 따른 width, height 설정</description>
+</snippet>

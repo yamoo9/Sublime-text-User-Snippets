@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[#{$0}]]></content>
     <tabTrigger>interpolation</tabTrigger>
-    <description>SASS - #{}</description>
+    <description>Sass - #{}</description>
     <scope>source.scss, source.sass</scope>
 </snippet>

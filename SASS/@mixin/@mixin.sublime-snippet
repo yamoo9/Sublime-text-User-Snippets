@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[@mixin ${1:믹스인 이름} ${2:($3)} {
-    $4
-}
-$5]]></content>
-    <tabTrigger>mixin</tabTrigger>
-    <scope>source.scss, source.sass</scope>
-    <description>SASS - 믹스인 정의</description>
-</snippet>

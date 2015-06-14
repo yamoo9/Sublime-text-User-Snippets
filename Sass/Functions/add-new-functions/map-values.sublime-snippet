@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[map-values(${1:\$map})]]></content>
+	<tabTrigger>map-values</tabTrigger>
+	<scope>source.sass, source.scss</scope>
+    <description>Sass - map-values() 함수</description>
+</snippet>

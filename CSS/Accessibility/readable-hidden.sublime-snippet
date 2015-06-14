@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[.${1:readable}-hidden {
+	overflow: hidden;
+	position: absolute;
+	clip:     rect(0 0 0 0);
+	clip:     rect(0,0,0,0);
+	width:    1px;
+	height:   1px;
+	margin:   -1px;
+	padding:  0;
+	border:   0;
+}
+.${1:readable}-hidden.focusable {
+	overflow: visible;
+	position: static;
+	clip:     auto;
+	width:    auto;
+	height:   auto;
+	margin:   0;
+}
+$0]]></content>
+	<tabTrigger>acc-hidden/</tabTrigger>
+	<scope>source.css, source.sass, source.scss</scope>
+</snippet>

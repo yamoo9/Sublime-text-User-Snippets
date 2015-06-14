@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[map-keys(${1:\$map})]]></content>
+	<tabTrigger>map-keys</tabTrigger>
+	<scope>source.sass, source.scss</scope>
+    <description>Sass - map-keys() 함수</description>
+</snippet>

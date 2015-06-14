@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[@media ${1:only screen} and (${2:min-device-width}: ${3:480px}) ${4: }{
-	$0
-}]]></content>
-    <tabTrigger>media-queries</tabTrigger>
-	<scope>source.scss, source.sass</scope>
-    <description>SASS - @media-queries 문</description>
-</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[@mixin ${1:믹스인 이름} ${2:($3)} {
+    $4
+}
+$5]]></content>
+    <tabTrigger>=</tabTrigger>
+    <scope>source.scss</scope>
+    <description>Sass - 믹스인 정의</description>
+</snippet>

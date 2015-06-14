@@ -1,37 +1,71 @@
 <snippet>
-	<content><![CDATA[
+	<content><![CDATA[# ------------------------------------------------------------------------
+# Compass 설정 참고자료
+# http://compass-style.org/help/documentation/configuration-reference/
+
+# ------------------------------------------------------------------------
 # Compass 플러그인 추가
+require 'compass/import-once/activate'
+# require 'sass-globbing'
 
-# CSS 파일 기본 인코딩(Default Encoding) 설정
-# Windows에서 한글, 일어, 중국어 등 SCSS 파일을 CSS로 컴파일 시 문자 인코딩 에러가 생길 경우
-# 아래 코드를 설정하여 기본 인코딩을 UTF-8로 설정하면 문제가 해결됨.
-Encoding.default_external = "utf-8"
+# ------------------------------------------------------------------------
+# 기본 언어 인코딩 설정
+# Windows 사용자에게 주로 발생하는 오류(언어 인코딩: CP949)
+# Encoding.default_external = "utf-8"
 
-# 프로젝트 내 폴더 경로 지정
-http_path = "${1:/}"
-css_dir = "${2:_/css}"
-sass_dir = "${3:_/sass}"
-images_dir = "${4:_/images}"
-javascripts_dir = "${5:_/js}"
+# ------------------------------------------------------------------------
+# 개발 또는 빌드 여부 환경설정
+# :development
+# :production
+environment = :development
 
+# ------------------------------------------------------------------------
+# 프로젝트 폴더 경로 지정
+http_path       = "${1:/}"
+css_dir         = "${2:css}"
+sass_dir        = "${3:sass}"
+javascripts_dir = "${4:js}"
+images_dir      = "${5:images}"
+fonts_dir       = "${6:fonts}"
+
+# ------------------------------------------------------------------------
 # SASS => CSS 변경 시에 변경되는 아웃풋 스타일 설정
-# output_style = :expanded | :nested | :compact | :compressed
-output_style = ${6::expanded}
+# :expanded
+# :nested
+# :compact
+# :compressed
+# output_style = :expanded
+output_style = (environment == :production) ? :compressed : :expanded
 
+# ------------------------------------------------------------------------
 # 상대 경로 지정 설정
-${7:# }relative_assets = ${8:true}
+# relative_assets = true
 
+# ------------------------------------------------------------------------
 # 변경된 내용 주석 처리 여부
-${9:# }line_comments = ${10:false}
+# line_comments = false
 
+# ------------------------------------------------------------------------
+# Sass 선호 문법 설정
+preferred_syntax = :sass
 
-# 만약 SASS 구문을 더 선호한다면, SCSS => SASS 문법으로 변경
-# project again passing --syntax sass, 주석의 #을 지우세요.
-${11:# }preferred_syntax = :sass
-# 아래 코드를 실행하세요. (주석의 #을 지우세요)
-${12:# }sass-convert -R --from scss --to sass common/css/input scss && rm -rf sass && mv scss sass
-]]></content>
+# ------------------------------------------------------------------------
+# Sourcemap 사용 유무
+sourcemap = true
+
+# ------------------------------------------------------------------------
+# 스프라이트 이미지 설정
+
+# generated_images_dir = "images/sprites"
+# sprite_load_path     = [images_path]
+# sprite_engine        = :chunky_png # :oily_png
+# chunky_png_options   = {:compression => Zlib::BEST_COMPRESSION}
+
+# 스프라이트 이미지 생성 엔진 참고URL
+# [ chunky_png ] https://github.com/wvanbergen/chunky_png
+# [ oily_png ] https://github.com/wvanbergen/oily_png
+$0]]></content>
 	<tabTrigger>compass-config</tabTrigger>
-	<!-- <scope>source.python</scope> -->
-	<description>compass- config.rb</description>
+	<scope>source.ruby</scope>
+	<description>compass- 환경설정</description>
 </snippet>

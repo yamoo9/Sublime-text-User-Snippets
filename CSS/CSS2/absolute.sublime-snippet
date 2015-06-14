@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[position: absolute;
-
-]]></content>
-	<tabTrigger>abs</tabTrigger>
-    <description>CSS - 절대 위치지정</description>
-    <scope>source.css, source.sass, source.scss, source.less</scope>
-</snippet>

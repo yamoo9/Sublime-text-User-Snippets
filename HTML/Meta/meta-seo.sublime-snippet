@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[<meta name="description" content="$1">
+<meta name="keywords"    content="$2">
+<meta name="author"      content="$3">]]></content>
+	<tabTrigger>meta:seo</tabTrigger>
+	<scope>text.html</scope>
+</snippet>

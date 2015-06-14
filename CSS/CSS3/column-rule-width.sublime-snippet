@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[column-rule-width: ${1:1px};]]></content>
+  <tabTrigger>column-rule-width</tabTrigger>
+  <scope>source.css, source.sass, source.scss</scope>
+</snippet>

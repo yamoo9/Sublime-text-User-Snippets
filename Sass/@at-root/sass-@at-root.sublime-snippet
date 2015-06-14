@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[@at-root
+	$1
+]]></content>
+	<tabTrigger>at-root</tabTrigger>
+	<scope>source.sass</scope>
+    <description>Sass - @at-root</description>
+</snippet>

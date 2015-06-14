@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[${1:상위 참조 선택자} &$2
+]]></content>
+    <tabTrigger>&&</tabTrigger>
+    <scope>source.sass</scope>
+    <description>Sass - 중첩 상위 참조 선택자</description>
+</snippet>

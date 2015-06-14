@@ -1,0 +1,99 @@
+<snippet>
+    <content><![CDATA['use strict';
+
+var gulp = require('gulp'),
+
+    // ------------------------------------------
+    // 유틸리티(Utilities)
+    // ------------------------------------------
+    rename    = require('gulp-rename'),     // 이름 변경
+    gulpif    = require('gulp-if'),         // 조건 처리
+    del       = require('del'),             // 파일,디렉토리 제거
+    changed   = require('gulp-changed'),    // 변경 파일만 처리
+    watch     = require('gulp-watch'),      // 변경 파일만 처리(위와 유사한 기능)
+    surcemaps = require('gulp-sourcemaps'), // 소스맵 처리
+
+    // ------------------------------------------
+    // 웹 서버 테스팅(Web Server + Livereload)
+    // ------------------------------------------
+    connect    = require('gulp-connect'),
+
+    // ------------------------------------------
+    // 프리프로세싱(Preprocessing)
+    // ------------------------------------------
+    // [HTML] Jade → HTML
+    jade       = require('gulp-jade'),
+    // [HTML] HTML → Jade
+    html2jade  = require('gulp-html2jade'),
+
+    // [CSS] SASS → CSS
+    sass       = require('gulp-ruby-sass'), // gulp-sass
+
+    // [JS] Coffee → JS
+    coffee     = require('gulp-coffee'),
+
+    // ------------------------------------------
+    // 의존성 관리(Dependencies)
+    // ------------------------------------------
+    browserify = require('browserify'),
+    source     = require('vinyl-source-stream'),
+
+    // ------------------------------------------
+    // 조립(Concatination)
+    // ------------------------------------------
+    concat     = require('gulp-concat'),
+
+    // ------------------------------------------
+    // 압축(Compression)
+    // ------------------------------------------
+    imagemin   = require('gulp-imagemin'),
+    cssmin     = require('gulp-cssmin'),
+    uglify     = require('gulp-uglify'),
+
+    // ------------------------------------------
+    // 검사(Lint)
+    // ------------------------------------------
+    csslint    = require('gulp-csslint'),
+    jslint     = require('gulp-jslint'),
+    eslint     = require('gulp-es-lint'),
+    scsslint   = require('gulp-scss-lint'),
+    coffeelint = require('gulp-coffeelint');
+
+
+/**
+ * --------------------------------
+ * 환경설정(Configuration)
+ * --------------------------------
+ */
+var env = Boolean(process.env.product) = false;
+
+/**
+ * --------------------------------
+ * 업무(Tasks)
+ * --------------------------------
+ */
+gulp.task('default', function() {
+    // default
+});
+
+gulp.task('watch', function() {
+    // watch
+});
+
+gulp.task('clean', function(cb) {
+    // 지우고자 하는 디렉토리 또는 파일 명시
+    del(['build', 'dist'], cb);
+});
+
+/**
+ * --------------------------------
+ * 헬퍼 함수(Helpers Function)
+ * --------------------------------
+ */
+function errorLog (err) {
+    console.log(err.message);
+}]]></content>
+    <tabTrigger>gulp-code</tabTrigger>
+    <scope>source.js</scope>
+    <description>Gulp - Tasks Code</description>
+</snippet>

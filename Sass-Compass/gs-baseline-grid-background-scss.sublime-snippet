@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[// 그리드 시스템 - 베이스라인: 설정
+\$baseline: ${1:1.5};
+\$color: ${2:#34c0ff};
+
+${3:.container} {
+	// 그리드 시스템 - 베이스라인
+	@include baseline-grid-background(\$baseline, \$color);
+}]]></content>
+    <tabTrigger>compass-gs-baseline-grid-background</tabTrigger>
+    <scope>source.scss</scope>
+    <description>Compass - 그리드 시스템: Baseline</description>
+</snippet>

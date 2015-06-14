@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[%${1:플레이스홀더 이름} {
+	$2
+}
+$0]]></content>
+    <tabTrigger>placeholder</tabTrigger>
+    <scope>source.scss</scope>
+    <description>Sass - 플레이스홀더 정의</description>
+</snippet>

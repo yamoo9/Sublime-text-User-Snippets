@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[backface-visibility: ${1:visible|hidden};]]></content>
+	<tabTrigger>backface-visibility</tabTrigger>
+	<scope>source.css, source.scss, source.sass</scope>
+</snippet>

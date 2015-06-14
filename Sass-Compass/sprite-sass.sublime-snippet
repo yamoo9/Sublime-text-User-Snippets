@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[@import ${1:스프라이트 폴더 이름}/*.png
++all-${1:스프라이트 폴더 이름}-sprites]]></content>
+    <tabTrigger>compass-sprite</tabTrigger>
+    <scope>source.sass</scope>
+    <description>Compass - 스프라이트 이미지 생성: Basic</description>
+</snippet>

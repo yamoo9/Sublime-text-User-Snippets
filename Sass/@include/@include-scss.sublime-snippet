@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[@include ${1:믹스인 이름}${2:($3)};]]></content>
+    <tabTrigger>include</tabTrigger>
+    <scope>source.scss</scope>
+    <description>Sass - 믹스인 호출</description>
+</snippet>

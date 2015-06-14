@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[column-width: ${1:300px};]]></content>
+  <tabTrigger>column-width</tabTrigger>
+  <scope>source.css, source.sass, source.scss</scope>
+</snippet>

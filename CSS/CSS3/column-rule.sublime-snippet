@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[column-rule: ${1:1px solid #000};]]></content>
+  <tabTrigger>column-rule</tabTrigger>
+  <scope>source.css, source.sass, source.scss</scope>
+</snippet>
