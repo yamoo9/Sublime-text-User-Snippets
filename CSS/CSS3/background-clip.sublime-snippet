@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[background-clip: ${1:padding-box};]]></content>
+  <tabTrigger>background-clip</tabTrigger>
+  <scope>source.css, source.sass, source.scss</scope>
+</snippet>
